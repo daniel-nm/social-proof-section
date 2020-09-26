@@ -71,6 +71,8 @@ Components
   text-align: center;
 
 }
+
+/* Hero Intro */
 .intro {
   margin-bottom: 2.67rem;
 }
@@ -84,4 +86,27 @@ Components
 .intro p {
   color: var(--light-accent);
   line-height: 1.67;
+}
+
+/* Hero Stars */
+.stars__rate {
+  background-color: var(--magenta-light);
+  border-radius: 8px;
+  margin-bottom: 1.067rem;
+  padding: 1rem 0;
+}
+
+.stars__rate p {
+  color: var(--dark-accent);
+  font-size: 81.25%;
+  font-weight: bold;
+}
+
+.stars__rate p::before {
+  content: '';
+  display: block;
+  width: 85px;
+  height: 15px;
+  margin: 0 auto 1.067rem;
+  background-image: url(../images/icon-star.svg);
 }
