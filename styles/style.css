@@ -19,8 +19,8 @@ Root and body elements
 */
 :root {
   /* Variables */
-  --dark-accent: #512051;
-  --light-accent: #927B91;
+  --dark-accent: hsl(300, 43%, 22%);
+  --light-accent: hsl(333, 80%, 67%);
   --white: #FFFFFF;
   --magenta-dark: hsl(303, 10%, 53%);
   --magenta-light: hsl(300, 24%, 96%);
@@ -59,7 +59,11 @@ Layout
 
 .hero {
   margin-top: 5.34rem;
-  margin-bottom: 2.67rem;
+  margin-bottom: 3.267rem;
+}
+
+.comments {
+  margin-bottom: 6.6rem;
 }
 
 /* 
@@ -84,7 +88,7 @@ Components
 }
 
 .intro p {
-  color: var(--light-accent);
+  color: var(--magenta-dark);
   line-height: 1.67;
 }
 
@@ -109,4 +113,47 @@ Components
   height: 15px;
   margin: 0 auto 1.067rem;
   background-image: url(../images/icon-star.svg);
+}
+
+/* Cards */
+.card {
+  background-color: var(--dark-accent);
+  padding: 2.67rem 2.134rem 4rem;
+  border-radius: 8px;
+  margin-bottom: 1.067rem;
+}
+
+.card__header {
+  margin-bottom: 1.734rem;
+  display: flex;
+  align-items: center;
+}
+
+.card__header__img {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  margin-right: 1.534rem;
+}
+
+.card__header__user h2,
+.card__header__user p,
+.card__body p {
+  font-size: 81.25%;
+}
+
+.card__header__user h2 {
+  color: var(--white);
+  font-weight: 700;
+  margin-bottom: 0.467rem;
+}
+
+.card__header__user p {
+  font-weight: 500;
+  color: var(--light-accent);
+}
+
+.card__body p {
+  color: var(--white);
+  line-height: 1.467;
 }
