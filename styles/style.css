@@ -47,6 +47,15 @@ body::before {
   height: 232px;
   background-image: url(../images/bg-pattern-top-mobile.svg);
   background-repeat: no-repeat;
+  background-position: top left;
+  width: 100%;
+}
+
+body {
+  background-image: url(../images/bg-pattern-bottom-mobile.svg);
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  background-size: 100%;
 }
 
 /* 
