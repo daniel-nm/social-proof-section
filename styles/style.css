@@ -166,3 +166,15 @@ Components
   color: var(--white);
   line-height: 1.467;
 }
+
+/* Attribution */
+.attribution {
+  font-size: 0.734rem;
+  line-height: 1.4;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
