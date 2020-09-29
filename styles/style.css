@@ -71,10 +71,18 @@ body {
 @media screen and (min-width: 59.67em) {
   body::before {
     background-image: url(../images/bg-pattern-top-desktop.svg);
-    height: 24.134rem;
+    height: 64.134rem;
+    background-size: 60%;
   }
   body {
     background-image: url(../images/bg-pattern-bottom-desktop.svg);
+  }
+}
+
+/* 1015px */
+@media screen and (min-width: 67.67em) {
+  body {
+    background-size: 80%;
   }
 }
 
